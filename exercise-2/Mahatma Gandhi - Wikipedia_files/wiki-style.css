@@ -5,13 +5,117 @@ cite,dfn{font-style:inherit}q{quotes:'"' '"' "'" "'"}blockquote{overflow:hidden;
 body {
     background-color: beige;
 }
-h1 {color:brown;
+
+#content {
+	background-color: beige;
+}
+
+#mw-page-base {
+    background-image: url(http://teacherweb.com/WQ/MiddleSchool/HumanRights1/marchtosea.jpg);
+    background-color: #cccccc;
+	opacity: .5;}
+
+#firstHeading {color: #445c18;
     text-align: center;
-    font-size: 50px;
     background-color: beige;
+    font-size: 80px;	
 	}
-h2 {color:brown;
+
+.mw-headline {
+    font-size: 20px;
+    background-color: beige;
+    text-shadow: 2px 1px white;
+	}
+
+#toc{
+	background-color: #f3efc1;
+	text-decoration: underline;
+	border-width: 3px;
+	border-style: double;
+}
+
+div.thumbinner{
+	text-decoration: underline;
+	background-color: #f3efc1;
+	outline-width: 5px;
+	border-width: 3px;
+	border-style: double;
+}
+
+.infobox {
+	background-color: #f3efc1;
+	border-color: #445c18;	
+	border-width: 3px;
+	border-style: double;
+}
+
+h2 {
+	color:brown;
     text-align: center;
-    font-size: 50px;
+    font-weight: bolder;
+}
+
+h3 {color:#cf7042;
+    text-align: center;
     background-color: beige;
+    text-shadow: 2px 1px white;
+    font-family: 'Linux Libertine',Georgia,Times,serif;
 	}
+
+h4 {color:#cf7042;
+    text-align: center;
+    background-color: beige;
+    text-shadow: 2px 1px white;
+    font-family: 'Linux Libertine',Georgia,Times,serif;
+	}
+
+a {color: gray;
+	}
+
+a:hover {
+    color: #445c18;
+}
+
+p {
+    padding-top: 1px;
+    padding-right: 30px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+#part1 {
+	background-color: #fdedd1;
+}
+
+#part2 {
+	background-color: #f9e6c6;
+}
+
+#part3 {
+	background-color: #f9e1bd;
+}
+
+#part4 {
+	background-color: #fae2ae;
+}
+
+#part5 {
+	background-color: #f7dba4;
+}
+
+#part6 {
+	background-color: #f6db95;
+}
+
+#part7 {
+	background-color: #f3d48c;
+}
+
+#part8 {
+	background-color: #edca8c;
+}
+
+#part9 {
+	background-color: #f1cb7f;
+}
