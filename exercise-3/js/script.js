@@ -1,16 +1,47 @@
 $(document).ready(function() {
-	$('#part1').click(function() {
-		$('#part1').fadeOut('slow');
-	});
+
+$("h1").hover(function(){
+        $(this).css("color", "#445c18");
+        }, function(){
+    });
+
+$("#part6").hover(function(){
+        $(this).fadeOut("slow").delay(2000);
+        }, function(){
+    });
+
+$("#part6").hover(function(){
+        $(this).fadeIn("slow");
+        }, function(){
+    });
+
+$(document).ready(function(){
+
+    $('#sash').animate({top:'+=50px'},1000);
 });
 
-$(document).ready(function(){ 
+$(document).ready(function(){
 
- $("#part1").click(function() { 
-     $("#part1").fadeIn("slow");
- });
+    $('#age7').animate({top:'+=50px'},1000);
+});
 
- $("#part1").click(function() { 
+$(document).ready(function(){
+
+    $('#wife').animate({top:'+=50px'},1000);
+});
+
+$(document).ready(function(){
+
+    $('#suit').animate({top:'+=50px'},1000);
+});
+
+$(document).ready(function(){
+
+    $('#yarn').animate({top:'+=50px'},1000);
+});
+
+/*
+$("#part1").click(function() { 
   $("#part1").fadeOut("slow"); 
   });
 
@@ -42,14 +73,6 @@ $(document).ready(function(){
   $("#part5").fadeOut("slow"); 
   });
 
-  $("#part6").click(function() { 
-     $("#part6").fadeIn("slow");
- });
-
- $("#part6").click(function() { 
-  $("#part6").fadeOut("slow"); 
-  });
-
   $("#part7").click(function() { 
      $("#part7").fadeIn("slow");
  });
@@ -69,5 +92,21 @@ $(document).ready(function(){
  $("#part9").click(function() { 
   $("#part9").fadeOut("slow"); 
   });
+*/
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
 
  });
