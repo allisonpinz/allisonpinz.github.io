@@ -1,0 +1,194 @@
+body {
+  background-color:#00d1c6;
+  margin:0;
+}
+.element {
+  width:375px;
+  height:667px;
+  background-color:white;
+  margin:15px auto;
+  text-align: center;
+  overflow: scroll;
+}
+
+p{
+/* Welcome: */
+font-family: AvenirNext-Bold;
+font-size: 46px;
+}
+
+.header{
+	width: 100%;
+	margin-top: 2%;
+}
+
+#logoreal{
+	height: 12%;
+	width: 40%;
+	float: left;
+	margin-left: 15%;
+}
+
+#usericon{
+	height: 8%;
+	width: 8%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 4%;
+}
+
+#filtericon{
+	height: 4%;
+	width: 10%;
+	float: left;
+	margin-left: 18%;
+	margin-top: 6%;
+}
+
+#pic1{
+	width: 120%;
+	height: 55%;
+	margin-top: 5%;
+}
+
+#title{
+	font-family: AvenirNext-DemiBold;
+	margin-left: 4%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	font-size: 24px;
+	color: #424242;
+	text-align: left;
+}
+
+#type{
+	font-family: AvenirNext-Regular;
+	font-size: 16px;
+	color: #ABABAB;
+	margin-left: 4%;
+	margin-top: -6%;
+	text-align: left;
+}
+
+br{
+	height: 2%;
+}
+
+#rating{
+	width: 50%;
+	height: 6%;
+	margin-left: -45%;
+	margin-top: -5%;
+}
+
+#gradient{
+	width: 100%;
+	margin-top: 2%;
+}
+
+#fav{
+	float: left;
+	width: 20%;
+	height: 10%;
+	margin-top: -21%;
+	margin-left: 75%;
+}
+
+#comment{
+	width: 12%;
+	height: 6%;
+	padding-left: 0px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	margin-left: 5%;
+}
+
+#photo{
+	width: 15%;
+	height: 6%;
+	margin: auto;
+	padding: 20px;
+}
+
+#checkin{
+	width: 12%;
+	height: 5%;
+	padding-right: 0px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	margin-right: 5%;
+}
+
+#part2{
+	margin: auto;
+	text-align: center;
+}
+
+#title2{
+	font-family: AvenirNext-DemiBold;
+	font-size: 24px;
+	color: #424242;
+	margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#type2{
+	font-family: AvenirNext-Regular;
+	font-size: 16px;
+	color: #ABABAB;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#rating2{
+	width: 40%;
+	height: 6%;
+}
+
+/* Accordion Menu */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    outline-color: #D2D0D0;
+    font-family: AvenirNext-DemiBold;
+
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+	margin-top: 10%;
+    padding: 18px;
+    background-color: white;
+    display: none;
+    outline-color: #D2D0D0;
+}
+
+#menutype{
+	font-family: AvenirNext-Regular;
+	font-size: 16px;
+	color: #ABABAB;
+	margin-left: 4%;
+	text-align: left;
+	margin-top: -10%;
+}
+
+#pic3{
+	width: 100%;
+	height: 35%;
+}
+
+a{
+	text-align: left;
+}
