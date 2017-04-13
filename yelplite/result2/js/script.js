@@ -1,11 +1,10 @@
 $(document).ready(function() { //always do this first. A special event
   
-$('#fav').mouseover(function(){
-    $(this).css('black');
-  });
-  $('#pic1').mouseout(function(){
-    $(this).css('background-color','#ff3151');
-  });
+$('#fav').on({
+    'click': function(){
+        $('#fav').attr('src','img/fav2.png');
+    }
+});
 
   var acc = document.getElementsByClassName("accordion");
 var i;

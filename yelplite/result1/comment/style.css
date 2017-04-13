@@ -1,0 +1,287 @@
+body {
+  background-color:#00d1c6;
+  margin:0;
+}
+.element {
+  width:375px;
+  height:667px;
+  background-color:white;
+  margin:15px auto;
+  text-align: center;
+  overflow: scroll;
+}
+
+#verizon{
+	width: 100%;
+	height: 2%;
+}
+
+p{
+/* Welcome: */
+font-family: AvenirNext-Bold;
+font-size: 46px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.header{
+	width: 100%;
+}
+
+#logoreal{
+	height: 9%;
+	width: 30%;
+	float: left;
+	margin-left: 22%;
+	margin-top: 2%;
+}
+
+#back{
+	height: 10%;
+	width: 7%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 6%;
+}
+
+#filtericon{
+	height: 3%;
+	width: 8%;
+	float: left;
+	margin-left: 21%;
+	margin-top: 6%;
+}
+
+/* #commentbox{
+	position: absolute;
+	width: 25%;
+	margin-top: -20%;
+	margin-left: -12%;
+
+} */
+
+input{
+	width: 90%;
+	padding-bottom: 180px;
+	outline: none;
+	}
+
+input[type="text"]{
+    font: AvenirNext-Regular;
+}
+
+#title{
+	font-family: AvenirNext-DemiBold;
+	margin-left: 4%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	font-size: 24px;
+	color: #424242;
+	text-align: left;
+}
+
+#type{
+	font-family: AvenirNext-Regular;
+	font-size: 16px;
+	color: #ABABAB;
+	margin-left: 4%;
+	margin-top: -7%;
+	text-align: left;
+	margin-bottom: 0px;
+
+}
+
+br{
+	height: 2%;
+}
+
+#rating{
+	width: 90%;
+	height:8%;
+	margin-bottom: 5%;
+	margin-top: 1%;
+}
+
+#gradient{
+	width: 100%;
+	margin-top: 2%;
+}
+
+#fav{
+	float: left;
+	width: 20%;
+	height: 10%;
+	margin-top: -21%;
+	margin-left: 73%;
+}
+
+#comment{
+	width: 12%;
+	height: 5%;
+	padding-left: 0px;
+	padding-right: 70px;
+	padding-top: 30px;
+	margin-left: 5%;
+	margin-top: 0px;
+}
+
+#icontype1{
+	font-family: AvenirNext-Regular;
+	font-size: 16px;
+	color: #ABABAB;
+	float: left;
+	text-align: left;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 70px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	margin-left: 6%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#photo{
+	width: 15%;
+	height: 6%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+#icontype2{
+	font-family: AvenirNext-Regular;
+	font-size: 16px;
+	color: #ABABAB;
+	float: left;
+	text-align: left;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	margin: auto;
+	margin-bottom: 0px;
+}
+
+#checkin{
+	width: 12%;
+	height: 5%;
+	padding-right: 0px;
+    padding-left: 70px;
+	padding-top: 30px;
+	margin-right: 5%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#iconall{
+	margin-left: 1%;
+}
+
+#icontype3{
+	font-family: AvenirNext-Regular;
+	font-size: 16px;
+	color: #ABABAB;
+	float: left;
+	text-align: left;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-right: 0px;
+    padding-left: 70px;
+	margin-right: 5%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#part2{
+	margin: auto;
+	text-align: center;
+}
+
+#title2{
+	font-family: AvenirNext-DemiBold;
+	font-size: 24px;
+	color: #424242;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    width: 200px;
+}
+
+#type2{
+	font-family: AvenirNext-Regular;
+	font-size: 16px;
+	color: #ABABAB;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#rating2{
+	width: 40%;
+	height: 6%;
+}
+
+/* Accordion Menu */
+button.accordion {
+    background-color: #eee;
+    color: #424242;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    outline-color: #D2D0D0;
+    font-family: AvenirNext-DemiBold;
+    font-size: 20px;
+
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+	margin-top: 10%;
+    padding: 18px;
+    background-color: white;
+    display: none;
+    outline-color: #D2D0D0;
+}
+
+#menutype{
+	font-family: AvenirNext-Regular;
+	font-size: 16px;
+	color: #ABABAB;
+	margin-left: 4%;
+	text-align: left;
+	margin-top: -10%;
+}
+
+#pic3{
+	width: 100%;
+	height: 35%;
+	margin-top: 10%;
+}
+
+a{
+	text-align: left;
+	text-decoration: none;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: white;
+    border-color: ##ABABAB;
+    border-radius: 15px;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50%;
+    font-family: AvenirNext-DemiBold;
+	font-size: 18px;
+	color: #424242;
+}
+
+#type1{
+	margin-top: 40px;
+}
