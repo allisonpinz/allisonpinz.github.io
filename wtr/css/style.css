@@ -1,0 +1,54 @@
+body{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+#back{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	style="z-index: 1;
+	top: 0px;
+	left: 0px;
+}
+
+#logo{
+	margin-top: 20%;
+	margin-left: 23%;
+	width: 50%;
+	height: 25%;
+	position: absolute;
+	style="z-index: 0;
+}
+
+#water{
+	max-width: 100%;
+	max-height: 60%;
+	margin-top: 700px;
+}
+
+audio{
+	margin-top: 45%;
+	margin-left: 46%;
+	width: 5%;
+	height: 10%;
+	position: absolute;
+	style="z-index: -1;
+}
+
+#welcome{
+	float: left;
+}
+
+section{
+	margin-top: 65%;
+	width: 100%;
+}
+
+#map {
+	width:100%;
+	height:500px;
+}
+

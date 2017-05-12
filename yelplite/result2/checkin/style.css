@@ -68,6 +68,7 @@ input{
 
 input[type="text"]{
     font: AvenirNext-Regular;
+    font-size: 18px;
 }
 
 #title{

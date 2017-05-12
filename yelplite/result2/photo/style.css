@@ -294,8 +294,8 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 
 #cameraroll{
-	width: 92%;
-	height: 40%;
+	width: 95%;
+	height: 60%;
 	overflow: scroll;
 	margin-left: 2%;
 }
@@ -309,4 +309,8 @@ input[type=button], input[type=submit], input[type=reset] {
 	width: 24%;
 	height: 10%;
 	padding: 10px;
+}
+
+#button{
+	padding-top: 3%;
 }
