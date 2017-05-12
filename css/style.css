@@ -1,0 +1,37 @@
+body{
+	background-color: orange;
+}
+h1{
+	text-size="36pt";
+	font-family: avenir;
+	padding-left: 2%;
+	padding-top: 2%;
+}
+h3{
+	text-size="36pt";
+	font-family: avenir;
+	padding-left: 2%;
+}
+a{
+	padding-left: 2%;
+	font-size: 25px;	
+	text-decoration: none;
+	color: black;
+	font-family: avenir;
+}
+#gif{
+    margin-left: 32%;
+    margin-top: -2%;
+    width: 30%;
+    position: absolute;
+}
+#gif2{
+	height: 41%;
+	position: absolute;
+	margin-left: 64%;
+	margin-top: -2%;
+}
+#excercises{
+	margin-top: -10%;
+	position: relative;
+}
