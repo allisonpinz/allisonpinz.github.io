@@ -1,0 +1,58 @@
+html{
+	height: 1000px;
+}
+
+h1{
+	font-family: avenir;
+	margin-left: 1%;
+	color: white;
+	font-size: 46px;
+	margin-top: 20px;
+}
+
+#home{
+	width: 3%;
+	height: 3%;
+	float: right;
+	margin-top: -80px;
+	margin-right: 2%;
+}
+
+#heading{
+	width: 102%;
+	background-color: #F9A220;
+    height: 100px;
+    margin-left: -1%;
+    margin-top: -9%;
+}
+
+#pizza{
+	width: 25%;
+	height: 10%;
+	margin-left: 3%;
+	margin-top: 5%;
+	padding-bottom: 2%;
+	position: relative;
+}
+
+#map{
+	width: 30%;
+	height: 30%;
+	margin-left: 1%;
+	padding-bottom: 2%;
+	position: relative;
+}
+
+#map2{
+	width: 30%;
+	margin-left: 1%;
+	position: relative;
+}
+
+#poem{
+	float: left;
+    margin-left: 32%;
+    width: 850px;
+    position: absolute;
+    top: 100px;
+}

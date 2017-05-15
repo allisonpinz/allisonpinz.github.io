@@ -1,0 +1,60 @@
+h1{
+	font-family: avenir;
+	margin-left: 2%;
+}
+
+p{
+	font-family: avenir;
+	margin-left: 2%;
+}
+
+#cookie{
+	width: 18%;
+	height: 18%;
+	margin-left: 7%;
+}
+
+#hotdog{
+	width: 18%;
+	height: 18%;
+	margin-left: 5%;
+}
+
+#shake{
+    width: 130px;
+    height: 260px;
+	margin-left: 5%;
+}
+
+#burger{
+    width: 325px;
+	height: 30%;
+	margin-left: 5%;
+}
+
+#icecream{
+    width: 125px;
+	height: 18%;
+	margin-top: 4%;
+	margin-left: 11%;	
+}
+
+#pizza{
+	width: 17%;
+	height: 17%;
+	margin-top: 4%;
+	margin-left: 8%;		
+}
+
+#donut{
+	width: 17%;
+	height: 17%;
+	margin-top: 4%;
+	margin-left: 8%;		
+}
+
+#avocado{
+	width: 12%;
+	margin-top: 4%;
+	margin-left: 6%;		
+}
